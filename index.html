@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Wallet Open Source for Bitcoin Gold</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="Create your Bitcoin Gold Address or use our tool for Claim the BTG with your Bitcoin Seed, in your browser (can ran offline)">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link rel="stylesheet" href="design.css"/>
+</head>
+<body>
+<div class="aa">
+<div class="center">
+<h2>Get Open Source Wallets</h2>
+<h1>Open Source Bitcoin Gold Wallet In Browser</h1>
+CREATE AN OFFLINE WALLET (PAPER WALLET) OR CLAIM YOUR BITCOIN GOLDS.
+</div>
+
+<div class="info">
+This site is <strong>Open Source</strong> and runs on just Javascript and HTML. You can Download the entire code on my <a href="https://github.com/John-Dass/btcgpuwallet" rel="nofollow" target="_blank">GitHub</a> and run it on your computer!.
+</div>
+
+<div class="flexc">
+<div class="flex1 center" id="forcreatewallet">Create a New Wallet</div>
+<div class="flex2 center" id="forimportseed">Import BTG from BTC Seed</div>
+</div>
+
+<div id="importseed">
+<h2>Import Bitcoin Gold from Bitcoin Seed</h2>
+This tool work for BIP44, it's compatible with lot of wallets like Jaxx, Mycelium, Electrum or Copay.
+<table>
+<tr>
+<td style="width:220px">
+BIP39 Mnemonic: (12, 18, 24 Words)
+</td>
+<td>
+<textarea rows="1" id="seed" placeholder="Example: clay dinosaur rival achieve hurt voyage come cram leaf boat close stairs soda entire apple surprise fine exhaust"></textarea>
+</td>
+</tr>
+<tr>
+</tr>
+</table>
+
+<table class="center" style="border-bottom:1px solid #CCCCCC;margin:10px 0;">
+<tr>
+<td id="sendfunds">Transfer BTG Funds</td>
+<td id="receivefunds">Receive BTG Funds</td>
+<td style="width:25%;background:#CCCCCC;border:1px solid #BBBBBB;border-radius:3px;padding:5px;">BTC Balance<br /><span id="btcbalance" style="font-size:2em;">0.00000000</span></td>
+<td style="width:25%;background:#EBA809;border:1px solid #CCCCCC;border-radius:3px;padding:5px;color:#FFFFFF;">BTG Balance<br /><span id="btgbalance" style="font-size:2em;">0.00000000</span></td>
+</tr>
+</table>
+
+<table id="seedlist">
+<thead>
+<tr>
+<td style="width:35%;">Address:</td>
+<td>N. Tx:</td>
+<td style="width:20%;">BTC Balance:</td>
+<td style="width:20%;">BTG Balance:</td>
+</tr>
+</thead>
+<tbody>
+</tbody>
+</table>
+
+</div>
+
+<div class="adv">
+<strong>Caution:</strong> Because Bitcoin Gold was not released (yes, we have the snapshot but not available nodes yet), we can't broadcast the transaction and the balance is teorical. The snapshot was taken at 491407 (2017-10-24 01:20 UTC).
+</div>
+
+</div>
+
+<div id="endweb">
+<div style="width:calc(33% - 40px);margin:10px 0;display:inline-block;padding:5px 10px;vertical-align:top;"><h3><u>This project is 100% open-source code</u></h3>You can download the entire code in my <a href="https://github.com/John-Dass/btcgpuwallet" rel="nofollow" target="_blank">github reposity</a>. This project is not finished but is stable for check balances. When Bitcoin Gold Team release nodes and more information i will finish this adding the option of Create New Seed / Wallet and the option to Transfer funds of BTG from Here!.</div>
+
+<div style="width:calc(33% - 40px);margin:10px 0;display:inline-block;padding:5px 10px;vertical-align:top;"><h3><u>About me:</u></h3>My nickname is JohnDass, im an enthusiasm developer of Open Source Website Proyects and really interested in the Blockchain Technology. My projects are maked without any type of profit, so if you want help me you can Donate to: <strong>18UALTRrX4AnJsEgsUpwNsMv52DhqyzUjU</strong></div>
+
+<div style="width:calc(33% - 40px);margin:10px 0;display:inline-block;padding:5px 10px;vertical-align:top;"><h3><u>Libraries and Credits:</u></h3><strong>jQuery</strong>: <a href="https://jquery.com" rel="nofollow">https://jquery.com</a><br /><strong>BitcoinJS</strong>: <a href="https://github.com/bitcoinjs/bitcoinjs-lib" rel="nofollow">https://github.com/bitcoinjs/bitcoinjs-lib</a><br /><strong>Bip39 by BitcoinJS</strong>: <a href="https://github.com/bitcoinjs/bip39" rel="nofollow">https://github.com/bitcoinjs/bip39</a><br /><br /><strong>Special Credits to <a href="https://github.com/iancoleman/" rel="nofollow">Ian Coleman</a></strong>, part of this project is based in his public tool for Bip39.</div>
+</div>
+
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="bitcoinjs/bitcoinjs.min.js"></script>
+<script type="text/javascript" src="bitcoinjs/bip39/bip39.min.js"></script>
+<script type="text/javascript" src="application.js"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108870131-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-108870131-1');
+</script>
+</body>
+</html>
