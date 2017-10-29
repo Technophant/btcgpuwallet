@@ -4,8 +4,8 @@
 <title>Wallet Open Source for Bitcoin Gold</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="description" content="Create your Bitcoin Gold Address or use our tool for Claim the BTG with your Bitcoin Seed, in your browser (can run locally)">
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<link rel="stylesheet" href="design.css"/>
+<!-- removed: link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"-->
+<!link rel="stylesheet" href="design.css"/>
 </head>
 <body>
 <div class="aa">
@@ -16,7 +16,7 @@ CREATE AN OFFLINE WALLET (PAPER WALLET) OR CLAIM YOUR BITCOIN GOLDS.
 </div>
 
 <div class="info">
-This site is <strong>Open Source</strong> and runs on just Javascript and HTML. You can Download the entire code on my <a href="https://github.com/John-Dass/btcgpuwallet" rel="nofollow" target="_blank">GitHub</a> and run it on your computer!
+This site is <strong>Open Source</strong> and runs on just Javascript and HTML. You can Download the entire code on my <a href="https://github.com/Technophant/btcgpuwallet" rel="nofollow" target="_blank">GitHub</a> and run it on your computer!
 </div>
 
 <div class="flexc">
@@ -26,7 +26,7 @@ This site is <strong>Open Source</strong> and runs on just Javascript and HTML. 
 
 <div id="importseed">
 <h2>Import Bitcoin Gold from Bitcoin Seed</h2>
-This tool work for BIP44, it's compatible with lot of wallets like Jaxx, Mycelium, Electrum or Copay.
+This tool work with BIP44/BIP39, so it's compatible with wallets like Jaxx, Mycelium, or Copay. This will not work for Electrum.
 <table>
 <tr>
 <td style="width:220px">
@@ -71,9 +71,9 @@ BIP39 Mnemonic: (12, 18, 24 Words)
 </div>
 
 <div id="endweb">
-<div style="width:calc(33% - 40px);margin:10px 0;display:inline-block;padding:5px 10px;vertical-align:top;"><h3><u>This project is 100% open-source code</u></h3>You can download the entire code in my <a href="https://github.com/John-Dass/btcgpuwallet" rel="nofollow" target="_blank">github reposity</a>. This project is not finished but is stable for checking balances. When Bitcoin Gold Team release nodes and more information I will finish this adding the option of Create New Seed / Wallet and the option to Transfer funds of BTG from here!</div>
+<div style="width:calc(33% - 40px);margin:10px 0;display:inline-block;padding:5px 10px;vertical-align:top;"><h3><u>This project is 100% open-source code</u></h3>You can download the master branch at <a href="https://github.com/John-Dass/btcgpuwallet" rel="nofollow" target="_blank">github reposity</a>. This project is not finished but is stable for checking balances. When Bitcoin Gold Team release nodes and more information I will finish this adding the option of Create New Seed / Wallet and the option to Transfer funds of BTG from here!</div>
 
-<div style="width:calc(33% - 40px);margin:10px 0;display:inline-block;padding:5px 10px;vertical-align:top;"><h3><u>About me:</u></h3>My nickname is JohnDass, im an enthusiasm developer of Open Source Website Proyects and really interested in the Blockchain Technology. My projects are created without any type of profit, so if you want help me you can Donate to: <strong>18UALTRrX4AnJsEgsUpwNsMv52DhqyzUjU</strong></div>
+<div style="width:calc(33% - 40px);margin:10px 0;display:inline-block;padding:5px 10px;vertical-align:top;"><h3><u>About me:</u></h3>This is adadapted from JohnDass, an "enthusiasm developer of Open Source Website Proyects and really interested in the Blockchain Technology." Spammy links to Google removed. This javascript will locally decode your brainseed, use blockchain.info's API to get your theroretical BTG balance then access blockcypher.com to get your current BTC balance. Both of these websites have a high level of trust in the BTC community and only public addresses are sent.</strong></div>
 
 <div style="width:calc(33% - 40px);margin:10px 0;display:inline-block;padding:5px 10px;vertical-align:top;"><h3><u>Libraries and Credits:</u></h3><strong>jQuery</strong>: <a href="https://jquery.com" rel="nofollow">https://jquery.com</a><br /><strong>BitcoinJS</strong>: <a href="https://github.com/bitcoinjs/bitcoinjs-lib" rel="nofollow">https://github.com/bitcoinjs/bitcoinjs-lib</a><br /><strong>Bip39 by BitcoinJS</strong>: <a href="https://github.com/bitcoinjs/bip39" rel="nofollow">https://github.com/bitcoinjs/bip39</a><br /><br /><strong>Special Credits to <a href="https://github.com/iancoleman/" rel="nofollow">Ian Coleman</a></strong>, part of this project is based in his public tool for Bip39.</div>
 </div>
@@ -83,14 +83,7 @@ BIP39 Mnemonic: (12, 18, 24 Words)
 <script type="text/javascript" src="bitcoinjs/bip39/bip39.min.js"></script>
 <script type="text/javascript" src="application.js"></script>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108870131-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<!-- Global site tag (gtag.js) - Google Analytics HAVE BEEN REMOVED-->
 
-  gtag('config', 'UA-108870131-1');
-</script>
 </body>
 </html>
