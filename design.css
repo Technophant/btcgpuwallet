@@ -1,6 +1,6 @@
 *{margin:0;padding:0;border:0;}
 html{height:100%;}
-body{min-height:100%;background:#D8D8D8;color:#333333;font-size:12px;font-family: 'Roboto', sans-serif;line-height:1.8em;text-rendering:optimizeLegibility;font-smooth:always;font-smoothing:antialiased;-moz-font-smoothing:antialiased;-webkit-font-smoothing:antialiased;-webkit-font-smoothing:subpixel-antialiased;}
+body{min-height:100%;background:#D8D8D8;color:#333333;font-size:12px;font-family: 'Roboto',  Arial, Helvetica, sans-serif;line-height:1.8em;text-rendering:optimizeLegibility;font-smooth:always;font-smoothing:antialiased;-moz-font-smoothing:antialiased;-webkit-font-smoothing:antialiased;-webkit-font-smoothing:subpixel-antialiased;}
 .aa{width:70%;margin:0 auto;padding-top:30px;background:#FFFFFF;min-height:250px;padding:30px;border:1px solid #CCCCCC;}
 .center{text-align:center;}
 .flexc{flex:1;display:flex;margin:15px 10px;border:1px solid #E0E0E0;background:#F0F0F0;border-radius:3px;}
