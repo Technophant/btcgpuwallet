@@ -1,3 +1,5 @@
+WARNING DO NOT USE ANY OF THIS CODE. IT MAY STEAL YOUR KEYS. THIS IS BEING KEPT FOR ARCHIVAL REASONS ONLY.
+
 # Bitcoin Gold - Open Source Wallet!
 This project is not finished but is stable for check balances. When Bitcoin Gold Team release nodes and more information i will finish this adding the option of Create New Seed / Wallet and the option to Transfer funds of BTG from Here!.
 
